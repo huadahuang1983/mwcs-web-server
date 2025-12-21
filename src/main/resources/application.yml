@@ -1,6 +1,11 @@
+server:
+  port: 5320
+
 mwc:
   security:
     ignored:
+    captcha:
+      enabled: false
     sms:
       expireSeconds: 120
 graceful-response:
