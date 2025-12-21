@@ -1,0 +1,7 @@
+mwc:
+  security:
+    ignored:
+    sms:
+      expireSeconds: 120
+graceful-response:
+  responseClassFullName: com.reebake.example.CustomResponseImpl
