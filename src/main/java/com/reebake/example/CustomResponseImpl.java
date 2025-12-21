@@ -46,4 +46,13 @@ public class CustomResponseImpl implements Response {
         return this.msg;
     }
 
+    @JsonIgnore
+    public String getCode() {
+        return this.code;
+    }
+
+    @JsonProperty("code")
+    public Integer getCodeNum() {
+        return Integer.parseInt(this.code);
+    }
 }
