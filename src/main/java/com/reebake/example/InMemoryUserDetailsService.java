@@ -1,6 +1,6 @@
 package com.reebake.example;
 
-import com.reebake.mwc.security.model.User;
+import com.reebake.mwcs.security.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

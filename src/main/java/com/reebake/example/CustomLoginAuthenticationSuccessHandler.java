@@ -2,10 +2,10 @@ package com.reebake.example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.feiniaojin.gracefulresponse.api.ResponseFactory;
-import com.reebake.mwc.security.dto.AuthResponse;
-import com.reebake.mwc.security.handler.LoginAuthenticationSuccessHandler;
-import com.reebake.mwc.security.model.User;
-import com.reebake.mwc.security.service.AuthenticationService;
+import com.reebake.mwcs.security.dto.AuthResponse;
+import com.reebake.mwcs.security.handler.LoginAuthenticationSuccessHandler;
+import com.reebake.mwcs.security.model.User;
+import com.reebake.mwcs.security.service.AuthenticationService;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

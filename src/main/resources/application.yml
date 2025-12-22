@@ -1,7 +1,7 @@
 server:
   port: 5320
 
-mwc:
+mwcs:
   security:
     ignored:
     captcha:

@@ -9,8 +9,8 @@
     <relativePath/>
   </parent>
   
-  <groupId>com.example</groupId>
-  <artifactId>mwc-web-server</artifactId>
+  <groupId>com.reebake.example</groupId>
+  <artifactId>mwcs-web-server</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>${project.artifactId}</name>
   <url>http://maven.apache.org</url>
@@ -27,14 +27,14 @@
     </dependency>
 
     <dependency>
-      <groupId>com.reebake.mwc.security</groupId>
-      <artifactId>mwc-security-authentication-client</artifactId>
+      <groupId>com.reebake.mwcs</groupId>
+      <artifactId>mwcs-security-authentication-client</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
-      <groupId>com.reebake.mwc.security</groupId>
-      <artifactId>mwc-security-authentication-server</artifactId>
+      <groupId>com.reebake.mwcs</groupId>
+      <artifactId>mwcs-security-authentication-server</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
 

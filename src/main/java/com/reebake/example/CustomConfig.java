@@ -2,7 +2,7 @@ package com.reebake.example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.feiniaojin.gracefulresponse.api.ResponseFactory;
-import com.reebake.mwc.security.service.AuthenticationService;
+import com.reebake.mwcs.security.service.AuthenticationService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

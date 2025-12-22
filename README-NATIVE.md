@@ -50,7 +50,7 @@ mvn native:compile-no-fork
 
 ```bash
 # 使用 Buildpacks 构建包含原生镜像的容器
-mvn spring-boot:build-image -Dspring-boot.build-image.imageName=mwc-web-server-native
+mvn spring-boot:build-image -Dspring-boot.build-image.imageName=mwcs-web-server-native
 ```
 
 ## 运行原生镜像
@@ -59,14 +59,14 @@ mvn spring-boot:build-image -Dspring-boot.build-image.imageName=mwc-web-server-n
 
 ```bash
 # 运行构建好的原生镜像
-./target/mwc-web-server-native
+./target/mwcs-web-server-native
 ```
 
 ### 运行容器镜像
 
 ```bash
 # 运行容器镜像
-docker run -p 8080:8080 mwc-web-server-native
+docker run -p 8080:8080 mwcs-web-server-native
 ```
 
 ## 注意事项
