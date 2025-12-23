@@ -8,5 +8,30 @@ mwcs:
       enabled: false
     sms:
       expireSeconds: 120
+
 graceful-response:
   responseClassFullName: com.reebake.example.CustomResponseImpl
+  printExceptionInGlobalAdvice: true
+
+# Spring Boot Application Configuration
+spring:
+  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/mwcs_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+#    username: root
+#    password: root
+    driver-class: org.sqlite.JDBC
+    url: jdbc:sqlite:../database/sqlite/ideal
+
+# MyBatis-Plus Configuration
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
