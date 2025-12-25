@@ -1,0 +1,2 @@
+INSERT INTO idl_user_credential (user_credential_id,user_id,phone_number,email,username,password,last_login_ip,last_login_time,account_enabled,account_non_expired,account_non_locked,credentials_non_expired,expire_at,remark,delete_flag,tenant_id,revision,created_by,created_time,updated_by,updated_time) VALUES
+	 ('1','1',NULL,NULL,'admin','{bcrypt}$2a$10$PvdK1BHu/QBtG2baozzdO.h4EEQpgu6nZdfPfWL5K9G9aR7l/En/K','0:0:0:0:0:0:0:1',1758257538446,1,1,1,1,NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,1758257538476);

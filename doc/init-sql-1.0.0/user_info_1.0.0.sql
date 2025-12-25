@@ -1,0 +1,2 @@
+INSERT INTO idl_user_info (user_id,phone_number,phone_number_status,nickname,gender,birthday,email,email_status,avatar,register_time,country,locale,description,user_status,remark,delete_flag,tenant_id,revision,created_by,created_time,updated_by,updated_time) VALUES
+	 ('1',NULL,NULL,'系统管理员',NULL,NULL,NULL,NULL,'http://www.qqju.com/pic/tx/tx1568.jpg',2025-11-06 04:27:07,NULL,NULL,NULL,'normal',NULL,0,NULL,NULL,NULL,NULL,NULL,NULL);
